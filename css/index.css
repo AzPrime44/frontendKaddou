@@ -1,0 +1,49 @@
+body {
+  height: 100%;
+  font-family: Roboto;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.navigation ul {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  right: 140px;
+}
+
+.logo {
+  height: 100px;
+}
+.logo2 {
+  height: 70px;
+  margin-top: -15px;
+}
+
+.welcome,
+.logo_sentence {
+  display: flex;
+  flex-direction: row;
+}
+.sentence {
+  margin-top: 10rem;
+  margin-left: 5rem;
+}
+
+a {
+  font-family: 'Open Sans';
+}
+
+.gif {
+  height: 30rem;
+  margin-left: 20rem;
+}
+
+.boutton {
+  margin-left: 6rem;
+  margin-top: -9rem;
+}

@@ -1,0 +1,94 @@
+body {
+  font-family: 'Nuosu SIL', sans-serif;
+  background-image: radial-gradient(
+    circle at top right,
+    white 0%,
+    white 30%,
+    rgb(34, 222, 255) 30%,
+    rgb(22, 153, 204) 35%,
+    rgb(31, 166, 217) 35%,
+    rgb(31, 166, 217) 38%,
+    rgb(40, 177, 231) 38%,
+    rgb(40, 161, 231) 40%,
+    rgb(49, 190, 244) 40%,
+    rgb(245, 240, 243) 100%
+  );
+  height: 100%;
+}
+.inside {
+  margin-left: -50px;
+  height: 35rem;
+  width: 90rem;
+}
+.logo {
+  margin-left: 100px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.formulaire1 {
+  display: flex;
+  flex-direction: row;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile-pic-div {
+  height: 200px;
+  width: 200px;
+  margin-top: 90px;
+  margin-left: 60px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+}
+
+#photo {
+  height: 100%;
+  width: 100%;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: wheat;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.gif {
+  position: absolute;
+  right: 1%;
+  height: 280px;
+
+  top: 50px;
+}
+.radio {
+  cursor: pointer;
+}
+
+.radio {
+  font-family: 'Cormorant Garamond', serif;
+}
+a {
+  color: #fff;
+  border-color: #fff;
+}
